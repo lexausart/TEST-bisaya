@@ -295,14 +295,13 @@ h1{
 .map__pin--3{left: 62%; top: 22%}
 
 /* Bios */
-.bio__top{display:flex; align-items:center; gap:12px; margin-bottom:10px;margin:auto}
+.bio__top{display:flex; place-items:center; gap:12px; margin-bottom:10px;}
 .avatar{
-  width:200px;height:200px; display:grid;place-items:center;
+  width:300px;h display:grid;place-items:center;
   border-radius: 14px; font-weight: 900;
   background: rgba(47,111,107,.15);
   border: 2px solid rgba(122,106,85,.55);
 }
-.avatar--sunny{background: rgba(139,45,42,.12);}
 .bio__name{margin:0}
 .bio__role{margin:2px 0 0; color:var(--muted); font-size:.93rem}
 .bio__links{display:flex; gap:10px; flex-wrap:wrap; margin: 12px 0 10px}
