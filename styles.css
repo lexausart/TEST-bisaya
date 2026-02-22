@@ -195,33 +195,6 @@ h1{
 .media-card__body{padding:16px}
 .media-card__body h2{margin:0 0 6px; font-size:1.08rem}
 
-/* “Ink illustration” blobs */
-.blob{position:absolute; border-radius:999px; opacity:.9; border:2px solid rgba(122,106,85,.35);}
-.blob--1{width:160px;height:110px; left:22px; top:24px; background: rgba(47,111,107,.12)}
-.blob--2{width:190px;height:130px; right:20px; top:34px; background: rgba(139,45,42,.10)}
-.sun{
-  position:absolute; width:56px;height:56px; border-radius:999px;
-  left:52%; top:28px; transform:translateX(-50%);
-  background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.85), rgba(179,135,42,.22));
-  border:2px solid rgba(122,106,85,.45);
-}
-.wave{
-  position:absolute; left:-10%; right:-10%;
-  height:34px; border-radius:999px;
-  border:2px solid rgba(122,106,85,.25);
-  background: rgba(255,255,255,.12);
-  bottom: 18px;
-}
-.wave--2{bottom: 6px; opacity:.85; transform: rotate(-1deg)}
-.wave--3{bottom: -6px; opacity:.65; transform: rotate(1deg)}
-
-.notice{
-  padding: 12px 14px;
-  border-radius: var(--radius);
-  border: 2px solid rgba(47,111,107,.35);
-  background: rgba(47,111,107,.10);
-}
-
 /* Sections */
 .section{padding: 44px 0}
 .section--alt{
@@ -261,39 +234,6 @@ h1{
   color: var(--muted);
 }
 
-/* Map */
-.map{
-  position:relative;
-  margin-top: 10px;
-  height: 220px;
-  border-radius: 18px;
-  border: 2px solid rgba(122,106,85,.55);
-  background:
-    radial-gradient(700px 240px at 30% 20%, rgba(47,111,107,.12), transparent 60%),
-    radial-gradient(600px 260px at 70% 70%, rgba(139,45,42,.10), transparent 65%),
-    rgba(255,255,255,.18);
-  overflow:hidden;
-}
-.map__island{
-  position:absolute; inset: 22px 40px 30px 34px;
-  border-radius: 46% 54% 48% 52% / 54% 44% 56% 46%;
-  background: rgba(255,255,255,.18);
-  border: 2px solid rgba(122,106,85,.35);
-}
-.map__pin{
-  position:absolute; display:flex; align-items:center; gap:8px;
-  padding: 8px 10px;
-  border-radius: 999px;
-  border: 2px solid rgba(122,106,85,.45);
-  background: rgba(239,227,199,.85);
-  color: var(--ink);
-  font-size: .84rem;
-}
-.map__pin::before{content:"✶";}
-.map__pin--1{left: 14%; top: 28%}
-.map__pin--2{left: 44%; top: 55%}
-.map__pin--3{left: 62%; top: 22%}
-
 /* Bios */
 .bio__top{place-items:center; gap:12px; margin-bottom:10px;}
 .avatar{
@@ -306,33 +246,9 @@ h1{
 .bio__role{margin:2px 0 0; color:var(--muted); font-size:.93rem}
 .bio__links{display:flex; gap:10px; flex-wrap:wrap; margin: 12px 0 10px}
 
-/* Plan */
+/* Hooks */
 .steps{margin:10px 0 0; padding-left:18px; color:var(--muted)}
 .steps li{margin: 8px 0}
-
-.linkbox{
-  margin-top: 12px;
-  border-radius: 16px;
-  overflow:hidden;
-  border: 2px solid rgba(122,106,85,.45);
-  background: rgba(255,255,255,.16);
-}
-.linkbox__row{
-  display:flex; gap:10px; align-items:center; justify-content:space-between;
-  padding:10px 12px;
-  border-top: 2px solid rgba(122,106,85,.18);
-}
-.linkbox__row:first-child{border-top:none}
-.linkbox__label{color:var(--muted); font-size:.9rem}
-.linkbox__code{
-  color: var(--ink);
-  background: rgba(255,255,255,.25);
-  border: 2px solid rgba(122,106,85,.25);
-  padding: 6px 8px;
-  border-radius: 12px;
-  max-width: 58%;
-  overflow:auto;
-}
 
 /* Footer */
 .footer{
