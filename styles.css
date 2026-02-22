@@ -295,7 +295,7 @@ h1{
 .map__pin--3{left: 62%; top: 22%}
 
 /* Bios */
-.bio__top{display:flex; place-items:center; gap:12px; margin-bottom:10px;}
+.bio__top{place-items:center; gap:12px; margin-bottom:10px;}
 .avatar{
   width:300px;h display:grid;place-items:center;
   border-radius: 14px; font-weight: 900;
