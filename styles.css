@@ -190,7 +190,7 @@ h1{
 
 .hero__card{display:flex; flex-direction:column; gap:12px}
 
-.media-card{padding:0; overflow:hidden; place-items:center;}
+.media-card{padding:0; overflow:hidden; place-items:center; display:grid;}
 .media-card__art{
   position:relative;
   background:
@@ -242,7 +242,7 @@ h1{
 }
 
 /* Bios */
-.bio__top{place-items:center; gap:12px; margin-bottom:10px;}
+.bio__top{place-items:center; display:grid; gap:12px; margin-bottom:10px;}
 .avatar{
   width:300px;h display:grid;place-items:center;
   border-radius: 14px; font-weight: 900;
